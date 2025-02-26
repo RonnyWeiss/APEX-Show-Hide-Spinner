@@ -1,0 +1,35 @@
+{
+    "name": "APEX Show/Hide Spinner",
+    "version": "25.02.25",
+    "description": "That Dynamic Action Plug-in is used to show or hide the spinner between execution of dynamic actions.<p><b>Important clarification: My work in the development team of Oracle APEX is in no way related to my open source projects or the plug-ins here on apex.world! All plug-ins are built in my spare time and are not supported by Oracle!</b></p>",
+    "keywords": ["oracle", "apex", "plugin", "dynamic action"],
+    "homepage": "https://github.com/RonnyWeiss/APEX-Show-Hide-Spinner",
+    "bugs": {
+        "url": "https://github.com/RonnyWeiss/APEX-Show-Hide-Spinner",
+        "email": "wronny@gmx.de"
+    },
+    "license": "MIT",
+    "commercial": "No",
+    "commercially_supported": "No",
+    "author": {
+        "name": "Ronny Weiß",
+        "email" : "wronny@gmx.de",
+        "url" : "https://ronnyweiss.app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RonnyWeiss/APEX-Show-Hide-Spinner.git"
+    },
+    "oracle": {
+        "versions": ["18c", "19c", "21c", "23c", "23ai"],
+        "apex": {
+            "versions": ["21.1", "21.2", "22.1", "22.2", "23.1", "23.2", "24.1", "24.2"],
+            "plugin": {
+                "internalName": "RW.APEX.SHOW.HIDE.SPINNER",
+                "type": "dynamic action",
+                "demo": "https://apex.oracle.com/pls/apex/f?p=103428",
+                "previewImage": "https://github.com/RonnyWeiss/APEX-Show-Hide-Spinner/blob/main/screenshot.gif?raw=true"
+            }
+        }
+    }
+}
